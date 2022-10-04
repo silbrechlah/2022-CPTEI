@@ -1,0 +1,16 @@
+- Criar (localmente) e acessar um diretório exclusivo para o Git:
+mkdir aulaGit
+cd aulaGit
+
+- Criar esse diretório no Git:
+aulaGit git init
+
+- Criar e adicionar arquivos no index:
+nano arq1.txt
+git add arq1.txt .
+
+- Verificar o satus:
+git status
+
+- Criar um commit, confirmando as alterações no arquivo:
+git commit -m "Criação do arquivo 1"
